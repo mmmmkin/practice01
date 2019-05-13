@@ -13,3 +13,14 @@ s = """
 """
 
 print(s)
+
+"""number = 0
+subNumber = 0
+
+for number in range(1, 9):
+    for subNumber in range(1, 9):
+        print('{0} X {1} = {3}'.format(number, subNumber, number*subNumber))"""
+for i in range(1, 10): # 뒤에 수 출력
+    for j in range(1, 10): # 앞 수 출력
+        print(str(j) + ' X ' + str(i) + ' = ' + str(j * i), end='\t')
+    print('')
